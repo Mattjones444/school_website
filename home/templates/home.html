@@ -57,6 +57,19 @@
         </div>
     </div>
     </section>
+
+  <section>
+    <div class="container welcome" data-aos="fade-in">
+      <p class="message1">WELCOME TO</p>
+      <p class="message2">MILL LANE PRIMARY SCHOOL</p>
+      </div>
+      <div class="container welcome-message" data-aos="fade-in">
+        <p data-aos="fade-in">Located in West London, Mill Lane Primary School is a vibrant community where a life-long love of learning is nurtured. We are committed to providing an outstanding education that empowers children to become confident and capable learners.
+        Our dedicated staff work closely with families and the local community to create a supportive, engaging environment where every child can thrive. Welcome to Mill Lane Primary School, where learning is a joy and potential is unlocked!</p>
+      </div>
+
+    </div>
+  </section>
     
 {% endblock %}
 
@@ -78,5 +91,10 @@
             currentIndex = (currentIndex + 1) % textArray.length;
         }
         setInterval(changeText, 5000);
+</script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
 </script>
     {% endblock %}

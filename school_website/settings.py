@@ -29,7 +29,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG')
 
-ALLOWED_HOSTS = ['8000-mattjones44-schoolwebsi-gitx5yje65w.ws-eu115.gitpod.io']
+ALLOWED_HOSTS = ['8000-mattjones44-schoolwebsi-gitx5yje65w.ws-eu116.gitpod.io']
 
 
 # Application definition
