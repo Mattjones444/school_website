@@ -67,8 +67,51 @@
         <p data-aos="fade-in">Located in West London, Mill Lane Primary School is a vibrant community where a life-long love of learning is nurtured. We are committed to providing an outstanding education that empowers children to become confident and capable learners.
         Our dedicated staff work closely with families and the local community to create a supportive, engaging environment where every child can thrive. Welcome to Mill Lane Primary School, where learning is a joy and potential is unlocked!</p>
       </div>
+      <div class="container welcome-button-container">
+        <button class="welcome-button">Read more...</button>
+      </div>
+  </section>
 
+  <section>
+    <div class="container latest-news-header">
+      <h3 class="news-header text-center">LATEST NEWS</h3>
     </div>
+    <div class="news-picture-container">
+      <img class="news-photo" src="/media/sports.jpeg">
+    </div>
+    <div class="container news-info">
+      <p class="news-info-header">5th July 2024</p>
+      <p class="news-info-message">Sports Day</p>
+      <p class="news-info-sub">Read the article</p>
+    </div>
+    <div class="container latest-news-header text-center">
+      <button class="read-more">View all news</button>
+    </div>
+  </section>
+  <section>
+    <div class="container upcoming-events-container text-center">
+      <div class="owl-carousel owl-theme owl-loaded">
+        <div class="owl-stage-outer">
+            <div class="owl-stage">
+                <div class="owl-item">Hello</div>
+                <div class="owl-item">World</div>
+                <div class="owl-item">It's</div>
+                <div class="owl-item">Me</div>
+            </div>
+        </div>
+        <div class="owl-nav">
+            <div class="owl-prev">prev</div>
+            <div class="owl-next">next</div>
+        </div>
+        <div class="owl-dots">
+            <div class="owl-dot active"><span></span></div>
+            <div class="owl-dot"><span></span></div>
+            <div class="owl-dot"><span></span></div>
+        </div>
+    </div>
+
+ 
+
   </section>
     
 {% endblock %}
@@ -97,4 +140,7 @@
 <script>
   AOS.init();
 </script>
+<script src="jquery.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script src="/static/css/js/owl.js"></script>
     {% endblock %}
